@@ -25,6 +25,10 @@ summon minecraft:marker 148 82 55 {Tags:["terf_multiblockcore","terf_rotated_mul
 summon minecraft:marker 144 82 56 {Tags:["terf_multiblockcore","terf_rotated_multiblockcore"],Rotation:[180.0f,0.0f]}
 summon minecraft:marker 154 88 57 {Tags:["terf_multiblockcore","terf_rotated_multiblockcore"],Rotation:[90.0f,0.0f]}
 
+#link elevators
+execute positioned -9 62 82 run data modify entity @e[type=minecraft:marker,distance=..1,limit=1] data.terf.links set from block 25 70 139 Items[{Slot:13b}].components.minecraft:custom_data.terf.links
+execute positioned 154 88 57 run data modify entity @e[type=minecraft:marker,distance=..1,limit=1] data.terf.links set from block 142 89 57 Items[{Slot:13b}].components.minecraft:custom_data.terf.links
+
 #fix turbine pipe
 setblock 18 48 152 minecraft:chiseled_quartz_block
 setblock 19 48 152 minecraft:quartz_pillar[axis=x]
