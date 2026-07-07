@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Adds community map content from the TEST server to PMC TERF",
+    "min_format": 94,
+    "max_format": 100
+  }
+}
