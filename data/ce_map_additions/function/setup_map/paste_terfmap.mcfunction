@@ -69,4 +69,8 @@ place template ce_map_additions:terfmap/192_48_192_terfmap 29999951 38 29999967
 fill 29999759 38 29999775 29999961 37 29999977 minecraft:air replace minecraft:bedrock
 fill 29999759 85 29999775 29999961 85 29999977 minecraft:air replace minecraft:bedrock
 
+#fix crr
+setblock 29999824 14 29999883 minecraft:redstone_block
+data remove storage terf:constants mb_setup_functions
+
 schedule function terf_oldmapadditions:reset/terf/reset 5s
