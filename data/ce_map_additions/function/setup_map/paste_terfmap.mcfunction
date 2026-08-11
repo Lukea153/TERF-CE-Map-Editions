@@ -7,7 +7,7 @@ fill 29999759 -10 29999775 29999961 94 29999977 minecraft:air
 kill @e[type=item]
 
 #wow this is so much easier
-place template ce_map_additions:terf_reset 29999759 -10 29999775
+place template ce_map_additions:terfmap 29999759 -10 29999775
 
 #fix crr
 setblock 29999824 14 29999883 minecraft:redstone_block
