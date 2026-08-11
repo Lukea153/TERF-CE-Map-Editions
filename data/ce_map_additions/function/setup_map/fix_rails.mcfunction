@@ -1,0 +1,52 @@
+#rails cooked
+fill 29999819 18 29999915 29999822 18 29999916 minecraft:redstone_wire
+fill 29999814 18 29999915 29999817 18 29999916 minecraft:redstone_wire
+
+fill 29999820 14 29999918 29999814 14 29999921 minecraft:rail[shape=east_west]
+fill 29999817 14 29999910 29999814 14 29999913 minecraft:rail[shape=east_west]
+fill 29999820 14 29999913 29999823 14 29999910 minecraft:rail[shape=east_west]
+fill 29999827 14 29999911 29999829 14 29999922 minecraft:rail[shape=east_west]
+fill 29999834 14 29999922 29999832 14 29999911 minecraft:rail[shape=east_west]
+
+setblock 29999814 14 29999918 minecraft:rail[shape=south_east]
+setblock 29999814 14 29999919 minecraft:rail[shape=north_east]
+setblock 29999814 14 29999920 minecraft:rail[shape=south_east]
+setblock 29999814 14 29999921 minecraft:rail[shape=north_east]
+setblock 29999823 14 29999919 minecraft:rail[shape=south_west]
+setblock 29999823 14 29999920 minecraft:rail[shape=north_west]
+setblock 29999823 14 29999921 minecraft:rail[shape=south_west]
+
+setblock 29999814 14 29999910 minecraft:rail[shape=south_east]
+setblock 29999814 14 29999911 minecraft:rail[shape=north_east]
+setblock 29999814 14 29999912 minecraft:rail[shape=south_east]
+setblock 29999814 14 29999913 minecraft:rail[shape=north_east]
+setblock 29999823 14 29999911 minecraft:rail[shape=south_west]
+setblock 29999823 14 29999912 minecraft:rail[shape=north_west]
+
+setblock 29999823 14 29999918 minecraft:rail[shape=east_west]
+setblock 29999824 14 29999918 minecraft:rail[shape=north_west]
+setblock 29999823 14 29999922 minecraft:rail[shape=north_east]
+
+setblock 29999827 14 29999912 minecraft:rail[shape=south_east]
+setblock 29999827 14 29999913 minecraft:rail[shape=north_east]
+setblock 29999827 14 29999914 minecraft:rail[shape=south_east]
+setblock 29999827 14 29999915 minecraft:rail[shape=north_east]
+setblock 29999827 14 29999916 minecraft:rail[shape=south_east]
+setblock 29999827 14 29999917 minecraft:rail[shape=north_east]
+setblock 29999827 14 29999918 minecraft:rail[shape=south_east]
+setblock 29999827 14 29999919 minecraft:rail[shape=north_east]
+setblock 29999827 14 29999920 minecraft:rail[shape=south_east]
+setblock 29999827 14 29999921 minecraft:rail[shape=north_east]
+
+setblock 29999834 14 29999911 minecraft:rail[shape=south_west]
+setblock 29999834 14 29999912 minecraft:rail[shape=north_west]
+setblock 29999834 14 29999913 minecraft:rail[shape=south_west]
+setblock 29999834 14 29999914 minecraft:rail[shape=north_west]
+setblock 29999834 14 29999915 minecraft:rail[shape=south_west]
+setblock 29999834 14 29999916 minecraft:rail[shape=north_west]
+setblock 29999834 14 29999917 minecraft:rail[shape=south_west]
+setblock 29999834 14 29999918 minecraft:rail[shape=north_west]
+setblock 29999834 14 29999919 minecraft:rail[shape=south_west]
+setblock 29999834 14 29999920 minecraft:rail[shape=north_west]
+setblock 29999834 14 29999921 minecraft:rail[shape=south_west]
+setblock 29999834 14 29999922 minecraft:rail[shape=north_west]
